@@ -6,7 +6,7 @@ const inscriptions=[
 ];
 function insérer(n,f){
     let derniere_inscription=inscriptions[inscriptions.length]
-    let i=derniere_inscription.id+1
+    let i=derniere_inscription.id+2
     inscriptions.splice(inscriptions.length,0,{id:i,nom:n,filiere:f})
 }
 insérer(14,"reda","DEV")
